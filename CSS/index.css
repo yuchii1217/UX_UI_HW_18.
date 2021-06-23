@@ -22,7 +22,7 @@ body {
     text-decoration: none;
     margin: 0px 1%;
   }
-.highlight{
+.highLight{
     color:tomato;
     
 }
@@ -38,15 +38,15 @@ body {
 :nth-last-of-type(2) {flex-grow: 1;}
 :nth-last-of-type(3) {flex-grow: 5;}
 
-#heroblock{
+#heroBlock{
     background-color: coral;
     width: 15%px;
     float: left;
     height: 600px;
     margin:0px;
 }
-#heroleft{
-    background-image: url(../images/mypic1.png);
+#heroLeft{
+    background-image: url(../image/mypic1.png);
     height:500px;
     width:400px;
     padding:50px;
@@ -54,13 +54,13 @@ body {
     margin:0px 0px;
     background-repeat: no-repeat;
  }
-#heroright{
+#heroRight{
     width:30%;
     float: left;
     align-self: center;
     padding-right:75px;
  }
- .headline{
+ .headLine{
      color: #23464D;
  }
 .icons{
@@ -89,7 +89,7 @@ body {
     "casestudy1 casestudy2"
     "casestudy3 casestudy4"
 }
-.casestudygrid{
+.casestudyGrid{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ body {
     background-color: lightcoral;
     color: white;;
 }
-.comingsoon{
+.comingSoon{
     /*outline: rgb(223, 223, 223) solid 2pt;*/
     background-color:aliceblue;
     font-size: 20pt;
@@ -160,8 +160,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
     "research research article" 
-    "coffee chillax chillax"
-    "plamstree plamstree plamstree";
+    "graphic wireframe wireframe"
+    "prototype prototype prototype";
   }
 .categoryGridArea{
     background-position: center;
@@ -174,23 +174,23 @@ body {
   }
 #research{
     grid-area:research;
-    background-image: url(..//images/Empathy\ Map_OC\ Hike.gif);
+    background-image: url(../image/Empathy\ Map_OC\ Hike.gif);
 }
 #article{
     grid-area:article;
-    background-image: url(../images/article.png);
+    background-image: url(../image/article.png);
 }
-#coffee{
-    grid-area:coffee;
-    background-image: url(../images/graphic2.gif);
+#graphic{
+    grid-area:graphic;
+    background-image: url(../image/graphic2.gif);
 }
-#chillax{
-    grid-area:chillax;
-    background-image: url(../images/wireframe.png);
+#wireframe{
+    grid-area:wireframe;
+    background-image: url(../image/wireframe.png);
 }
-#plamstree{
-    grid-area:plamstree;
-    background-image: url(../images/prototype.png);
+#prototype{
+    grid-area:prototype;
+    background-image: url(../image/prototype.png);
 }
 #categoryGrid2{
     margin: 0px 5%;
@@ -216,23 +216,23 @@ body {
   }
 #me{
     grid-area:me;
-    background-image: url(../images/me.jpg);
+    background-image: url(../image/me.jpg);
 }
 #inspiration{
     grid-area:inspiration;
-    background-image: url(../images/inspiration.png);
+    background-image: url(../image/me2.jpg);
 }
 #reflection{
     grid-area:reflection;
-    background-image: url(../images/reflection.jpg);
+    background-image: url(../image/reflection.jpg);
 }
 #hobby{
     grid-area:hobby;
-    background-image: url(../images/hobby1.jpg);
+    background-image: url(../image/hobby1.jpg);
 }
 #love{
     grid-area:love;
-    background-image: url(../images/love1.jpg);
+    background-image: url(../image/love1.jpg);
 }
 .heading2{
     background-color:rgba(0,0,0,0.5);
@@ -252,12 +252,12 @@ width:100%;
 border-bottom:5px solid #ff6200;
 
 }
-.footertitle{
+.footerTitle{
     font-size: 20pt;
     text-align: center;
     color: coral;
 }
-#footerarea{
+#footerArea{
     font-size: 14px;
     margin: 0px 5%;
     text-align: center;
@@ -293,12 +293,6 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .preloader img{
-    animation: spin 3s ease;
-   
-    justify-content: center;
-    align-items: center;
   }
 @keyframes spin {
     0% {
@@ -345,18 +339,18 @@ ul{
         flex-direction: row;
         padding: 0px;
     }
-    #heroblock{
+    #heroBlock{
             background-color: coral;
             width: 16%;
             float: left;
             height: 500px;
             margin:0px;
         }
-        #heroleft{
+        #heroLeft{
             padding:0px;
             float: right;
           }
-        #heroright{
+        #heroRight{
             /* outline: 1px solid #ff6200; */
              width:350px;
              padding:50px;
@@ -381,7 +375,7 @@ ul{
             background-position: center;
             width:500px;
           }
-        .comingsoon{
+        .comingSoon{
             background-color: aliceblue;
             color:teal;
         }
